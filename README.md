@@ -2,8 +2,13 @@
 
 ### Språk/rammeverk
 scraper: go
+
 api: go
+
 nettside: svelte, ts, tailwind
+
 dokumentasjon: astro, ts, starlight
+
+docker
 
 database: neon

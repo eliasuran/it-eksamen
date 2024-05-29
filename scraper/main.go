@@ -5,13 +5,17 @@ import (
 	"time"
 )
 
-func scraper() {
-	fmt.Println("hello world")
+func run() {
+	categories := getCategories()
+
+	products := getProducts(categories.categories)
+
+	fmt.Println(products)
 }
 
 func main() {
 	start := time.Now()
-	scraper()
+	run()
 
 	fmt.Println("Elapsed:", time.Now().Sub(start))
 }
