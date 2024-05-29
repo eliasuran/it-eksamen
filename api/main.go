@@ -32,11 +32,9 @@ func api(client *sql.DB) {
 
 func main() {
 	// loader .env fil og variablene i filen
-	if err := godotenv.Load(); err != nil {
-		log.Fatalf("Error loading .env file: %v\n", err)
-	}
+	godotenv.Load()
 
-	// henter neon url (connection string) fra .env fil
+	// henter neon url (connection string) fra environment (.env fil lokalt, docker compose på serveren)
 	NEON_URL := os.Getenv("NEON_URL")
 
 	// lager en instans av databasen med neon url-en
