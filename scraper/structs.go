@@ -22,11 +22,12 @@ type Products struct {
 }
 
 type Product struct {
-	Id        int
-	Title     string
-	Category  string
-	ImageLink string
-	Price     Price
+	Id          int
+	Title       string
+	Category    string
+	SubCategory string
+	ImageLink   string
+	Price       Price
 }
 
 type Price struct {

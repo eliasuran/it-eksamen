@@ -62,60 +62,49 @@ func getSubCategories(link string) []SubCategory {
 	return subCategories
 }
 
-func getProducts(categories []Category) Products {
+func getProducts(products *Products, category Category, subCategory SubCategory, id *int) {
+	c := colly.NewCollector()
 
-	products := Products{}
+	c.OnHTML("div.sc-32c83f74-3", func(e *colly.HTMLElement) {
+		title := e.ChildText("h3.sc-32c83f74-10")
+		fmt.Println("Henter data for:", title)
 
-	id := 1
+		imageLink := e.ChildAttr("img", "src")
 
-	for _, category := range categories {
-		c := colly.NewCollector()
+		priceStr := e.ChildText("span.sc-ceacab0-1")
+		priceFloat, err := strconv.ParseFloat(strings.Split(priceStr, "&")[0], 32)
+		if err != nil {
+			priceFloat = 0
+		}
 
-		c.OnHTML("div.sc-32c83f74-3", func(e *colly.HTMLElement) {
-			title := e.ChildText("h3.sc-32c83f74-10")
-			fmt.Println("Henter data for:", title)
-			imageLink := e.ChildAttr("img", "src")
+		unitPrice := strings.Split(e.ChildText("span.sc-ca7057be-2"), "/")
+		var unitPriceFloat float64
+		var unitType string
 
-			priceStr := e.ChildText("span.sc-ceacab0-2")
-			if priceStr == "" {
-				priceStr = e.ChildText("span.sc-ceacab0-0")
-			}
-			priceFloat, err := strconv.ParseFloat(strings.Split(priceStr, "&")[0], 32)
+		if len(unitPrice) >= 2 {
+			unitPriceFloat, err = strconv.ParseFloat(strings.Split(unitPrice[0], "&")[0], 32)
 			if err != nil {
-				priceFloat = 0.00
+				unitPriceFloat = 0.00
 			}
-			fmt.Println(priceStr)
+			unitType = unitPrice[1]
+		}
 
-			unitPrice := strings.Split(e.ChildText("span.sc-ca7057be-2"), "/")
-			var unitPriceFloat float64
-			var unitType string
-
-			if len(unitPrice) >= 2 {
-				unitPriceFloat, err = strconv.ParseFloat(strings.Split(unitPrice[0], "&")[0], 32)
-				if err != nil {
-					unitPriceFloat = 0.00
-				}
-				unitType = unitPrice[1]
-			}
-
-			products.Products = append(products.Products, Product{
-				Id:    id,
-				Title: title,
-				Price: Price{
-					Price:      float32(priceFloat),
-					UnitPrice:  float32(unitPriceFloat),
-					UnitType:   unitType,
-					Product_id: id,
-				},
-				Category:  category.Name,
-				ImageLink: imageLink,
-			})
-
-			id++
+		products.Products = append(products.Products, Product{
+			Id:    *id,
+			Title: title,
+			Price: Price{
+				Price:      float32(priceFloat),
+				UnitPrice:  float32(unitPriceFloat),
+				UnitType:   unitType,
+				Product_id: *id,
+			},
+			Category:    category.Name,
+			SubCategory: subCategory.Name,
+			ImageLink:   imageLink,
 		})
 
-		c.Visit(category.Link)
-	}
+		(*id)++
+	})
 
-	return products
+	c.Visit(subCategory.Link)
 }
