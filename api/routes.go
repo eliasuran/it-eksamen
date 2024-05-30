@@ -49,7 +49,33 @@ func routes(
 		fmt.Fprintln(w, string(json))
 	})
 
-	// mux.HandleFunc("GET /products/{id}", func(w http.ResponseWriter, r *http.Request) {})
+	mux.HandleFunc("GET /products/{id}", func(w http.ResponseWriter, r *http.Request) {
+		id := r.PathValue("id")
+
+		rows, err := client.Query("SELECT * FROM products WHERE id = $1", id)
+		if err != nil {
+			httpError(w, err, "Could during query")
+		}
+		defer rows.Close()
+
+		var product Product
+		rows.Next()
+		if err := rows.Scan(&product.Id, &product.Title, &product.Category, &product.Subcategory, &product.Imagelink); err != nil {
+			httpError(w, err, "Could not read data from database")
+		}
+
+		if err = rows.Err(); err != nil {
+			httpError(w, err, "Error during iteration")
+		}
+
+		json, err := json.MarshalIndent(product, "", "    ")
+		if err != nil {
+			httpError(w, err, "Error parsing json")
+		}
+
+		w.WriteHeader(200)
+		fmt.Fprintln(w, string(json))
+	})
 
 	mux.Handle("GET /", http.NotFoundHandler())
 }
