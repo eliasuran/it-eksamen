@@ -1,6 +1,7 @@
 package main
 
 import (
+	"encoding/json"
 	"fmt"
 	"time"
 )
@@ -8,9 +9,8 @@ import (
 func run() {
 	categories := getCategories()
 
-	products := getProducts(categories.categories)
-
-	fmt.Println(products)
+	json, _ := json.MarshalIndent(categories, "", "    ")
+	fmt.Println(string(json))
 }
 
 func main() {

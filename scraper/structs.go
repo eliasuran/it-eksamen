@@ -1,29 +1,37 @@
 package main
 
-type categories struct {
-	categories []category
+// TODO: legg til `json:""` for å gjøre dataen til det formatet jeg vil ha i json
+
+type Categories struct {
+	Categories []Category
 }
 
-type category struct {
-	name string
-	link string
+type Category struct {
+	Name          string
+	Link          string
+	SubCategories []SubCategory
 }
 
-type products struct {
-	products []product
+type SubCategory struct {
+	Name string
+	Link string
 }
 
-type product struct {
-	id        int
-	title     string
-	category  string
-	imageLink string
-	price     price
+type Products struct {
+	Products []Product
 }
 
-type price struct {
-	price      float32
-	unitprice  float32
-	unittype   string
-	product_id int
+type Product struct {
+	Id        int
+	Title     string
+	Category  string
+	ImageLink string
+	Price     Price
+}
+
+type Price struct {
+	Price      float32
+	UnitPrice  float32
+	UnitType   string
+	Product_id int
 }

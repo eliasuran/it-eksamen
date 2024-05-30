@@ -8,8 +8,8 @@ import (
 	"github.com/gocolly/colly/v2"
 )
 
-func getCategories() categories {
-	categories := categories{}
+func getCategories() Categories {
+	categories := Categories{}
 
 	c := colly.NewCollector()
 
@@ -23,13 +23,15 @@ func getCategories() categories {
 
 		name := e.ChildText("div.sc-dad41f1f-6")
 
-		// frukt & grønnsaker er den første kategorien, så da kan jeg begynne å legge til kategoriene i instansen av categories
+		// frukt & grønnsaker er den første kategorien, så da settes categoriesStarted til true
 		if name == "Frukt & Grønnsaker" {
 			categoriesStarted = true
 		}
 
+		// om categoriesStarted er true, hentes underkategorier og dataen legges til i instansen av categories structet
 		if categoriesStarted {
-			categories.categories = append(categories.categories, category{name, link})
+			subCategories := getSubCategories(link)
+			categories.Categories = append(categories.Categories, Category{name, link, subCategories})
 		}
 	})
 
@@ -38,8 +40,31 @@ func getCategories() categories {
 	return categories
 }
 
-func getProducts(categories []category) products {
-	products := products{}
+func getSubCategories(link string) []SubCategory {
+	subCategories := []SubCategory{}
+
+	c := colly.NewCollector()
+
+	c.OnHTML("div.sc-adf1bc0c-8.kWmoAY", func(e *colly.HTMLElement) {
+		name := e.ChildText("a > div.sc-dad41f1f-6")
+
+		if name != "Alle varer" && !strings.Contains(name, "Kampanjer") {
+			href := e.ChildAttr("a", "href")
+			link := fmt.Sprintf("%s%s", "https://wolt.com", href)
+
+			subCategories = append(subCategories, SubCategory{name, link})
+		}
+
+	})
+
+	c.Visit(link)
+
+	return subCategories
+}
+
+func getProducts(categories []Category) Products {
+
+	products := Products{}
 
 	id := 1
 
@@ -73,23 +98,23 @@ func getProducts(categories []category) products {
 				unitType = unitPrice[1]
 			}
 
-			products.products = append(products.products, product{
-				id:    id,
-				title: title,
-				price: price{
-					price:      float32(priceFloat),
-					unitprice:  float32(unitPriceFloat),
-					unittype:   unitType,
-					product_id: id,
+			products.Products = append(products.Products, Product{
+				Id:    id,
+				Title: title,
+				Price: Price{
+					Price:      float32(priceFloat),
+					UnitPrice:  float32(unitPriceFloat),
+					UnitType:   unitType,
+					Product_id: id,
 				},
-				category:  category.name,
-				imageLink: imageLink,
+				Category:  category.Name,
+				ImageLink: imageLink,
 			})
 
 			id++
 		})
 
-		c.Visit(category.link)
+		c.Visit(category.Link)
 	}
 
 	return products

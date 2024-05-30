@@ -1,0 +1,821 @@
+{
+    "Categories": [
+        {
+            "Name": "Frukt \u0026 Grønnsaker",
+            "Link": "https://wolt.com/nb/nor/oslo/venue/wolt-market-sentrum/items/frukt-grnnsaker-5",
+            "SubCategories": [
+                {
+                    "Name": "Frukt \u0026 Bær",
+                    "Link": "https://wolt.com/nb/nor/oslo/venue/wolt-market-sentrum/items/frukt-br-178"
+                },
+                {
+                    "Name": "Grønnsaker",
+                    "Link": "https://wolt.com/nb/nor/oslo/venue/wolt-market-sentrum/items/grnnsaker-179"
+                },
+                {
+                    "Name": "Salat",
+                    "Link": "https://wolt.com/nb/nor/oslo/venue/wolt-market-sentrum/items/salat-180"
+                },
+                {
+                    "Name": "Poteter \u0026 Rotgrønnsaker",
+                    "Link": "https://wolt.com/nb/nor/oslo/venue/wolt-market-sentrum/items/poteter-rotgrnnsaker-181"
+                },
+                {
+                    "Name": "Løk",
+                    "Link": "https://wolt.com/nb/nor/oslo/venue/wolt-market-sentrum/items/lk-182"
+                },
+                {
+                    "Name": "Sopp",
+                    "Link": "https://wolt.com/nb/nor/oslo/venue/wolt-market-sentrum/items/sopp-183"
+                },
+                {
+                    "Name": "Ferske Krydder",
+                    "Link": "https://wolt.com/nb/nor/oslo/venue/wolt-market-sentrum/items/ferske-krydder-184"
+                },
+                {
+                    "Name": "Frosne Bær \u0026 Frukt",
+                    "Link": "https://wolt.com/nb/nor/oslo/venue/wolt-market-sentrum/items/frosne-br-frukt-185"
+                },
+                {
+                    "Name": "Frosne Grønnsaker",
+                    "Link": "https://wolt.com/nb/nor/oslo/venue/wolt-market-sentrum/items/frosne-grnnsaker-186"
+                }
+            ]
+        },
+        {
+            "Name": "Bakeri",
+            "Link": "https://wolt.com/nb/nor/oslo/venue/wolt-market-sentrum/items/bakeri-6",
+            "SubCategories": [
+                {
+                    "Name": "Brød",
+                    "Link": "https://wolt.com/nb/nor/oslo/venue/wolt-market-sentrum/items/brd-44"
+                },
+                {
+                    "Name": "Boller \u0026 Småvarer",
+                    "Link": "https://wolt.com/nb/nor/oslo/venue/wolt-market-sentrum/items/boller-smavarer-45"
+                },
+                {
+                    "Name": "Fryst \u0026 Langtidsholdbar",
+                    "Link": "https://wolt.com/nb/nor/oslo/venue/wolt-market-sentrum/items/fryst-langtidsholdbar-46"
+                },
+                {
+                    "Name": "Søtkjeks \u0026 Kaker",
+                    "Link": "https://wolt.com/nb/nor/oslo/venue/wolt-market-sentrum/items/stkjeks-kaker-47"
+                },
+                {
+                    "Name": "Knekkebrød",
+                    "Link": "https://wolt.com/nb/nor/oslo/venue/wolt-market-sentrum/items/knekkebrd-48"
+                },
+                {
+                    "Name": "Pølse- \u0026 Hamburgerbrød",
+                    "Link": "https://wolt.com/nb/nor/oslo/venue/wolt-market-sentrum/items/plse-hamburgerbrd-49"
+                },
+                {
+                    "Name": "Lomper, Naan \u0026 Pita",
+                    "Link": "https://wolt.com/nb/nor/oslo/venue/wolt-market-sentrum/items/lomper-naan-pita-50"
+                },
+                {
+                    "Name": "Salte Kjeks",
+                    "Link": "https://wolt.com/nb/nor/oslo/venue/wolt-market-sentrum/items/salte-kjeks-51"
+                }
+            ]
+        },
+        {
+            "Name": "Frokostblanding \u0026 Grøt",
+            "Link": "https://wolt.com/nb/nor/oslo/venue/wolt-market-sentrum/items/frokostblanding-grt-7",
+            "SubCategories": [
+                {
+                    "Name": "Frokostblanding",
+                    "Link": "https://wolt.com/nb/nor/oslo/venue/wolt-market-sentrum/items/frokostblanding-80"
+                },
+                {
+                    "Name": "Gryn \u0026 Grøt",
+                    "Link": "https://wolt.com/nb/nor/oslo/venue/wolt-market-sentrum/items/gryn-grt-81"
+                },
+                {
+                    "Name": "Müsli \u0026 Granola",
+                    "Link": "https://wolt.com/nb/nor/oslo/venue/wolt-market-sentrum/items/musli-granola-82"
+                }
+            ]
+        },
+        {
+            "Name": "Meieri \u0026 Egg",
+            "Link": "https://wolt.com/nb/nor/oslo/venue/wolt-market-sentrum/items/meieri-egg-8",
+            "SubCategories": [
+                {
+                    "Name": "Egg",
+                    "Link": "https://wolt.com/nb/nor/oslo/venue/wolt-market-sentrum/items/egg-130"
+                },
+                {
+                    "Name": "Melk",
+                    "Link": "https://wolt.com/nb/nor/oslo/venue/wolt-market-sentrum/items/melk-131"
+                },
+                {
+                    "Name": "Smaksatt Melk",
+                    "Link": "https://wolt.com/nb/nor/oslo/venue/wolt-market-sentrum/items/smaksatt-melk-132"
+                },
+                {
+                    "Name": "Yoghurt",
+                    "Link": "https://wolt.com/nb/nor/oslo/venue/wolt-market-sentrum/items/yoghurt-133"
+                },
+                {
+                    "Name": "Rømme \u0026 Fløteprodukter",
+                    "Link": "https://wolt.com/nb/nor/oslo/venue/wolt-market-sentrum/items/rmme-flteprodukter-134"
+                },
+                {
+                    "Name": "Smør \u0026 Margarin",
+                    "Link": "https://wolt.com/nb/nor/oslo/venue/wolt-market-sentrum/items/smr-margarin-135"
+                }
+            ]
+        },
+        {
+            "Name": "Ost",
+            "Link": "https://wolt.com/nb/nor/oslo/venue/wolt-market-sentrum/items/ost-9",
+            "SubCategories": [
+                {
+                    "Name": "Gulost",
+                    "Link": "https://wolt.com/nb/nor/oslo/venue/wolt-market-sentrum/items/gulost-206"
+                },
+                {
+                    "Name": "Spesialost",
+                    "Link": "https://wolt.com/nb/nor/oslo/venue/wolt-market-sentrum/items/spesialost-207"
+                },
+                {
+                    "Name": "Revet Ost",
+                    "Link": "https://wolt.com/nb/nor/oslo/venue/wolt-market-sentrum/items/revet-ost-208"
+                },
+                {
+                    "Name": "Krem- \u0026 Smørost",
+                    "Link": "https://wolt.com/nb/nor/oslo/venue/wolt-market-sentrum/items/krem-smrost-209"
+                },
+                {
+                    "Name": "Brunost",
+                    "Link": "https://wolt.com/nb/nor/oslo/venue/wolt-market-sentrum/items/brunost-210"
+                }
+            ]
+        },
+        {
+            "Name": "Pålegg",
+            "Link": "https://wolt.com/nb/nor/oslo/venue/wolt-market-sentrum/items/palegg-10",
+            "SubCategories": [
+                {
+                    "Name": "Kjøttpålegg",
+                    "Link": "https://wolt.com/nb/nor/oslo/venue/wolt-market-sentrum/items/kjttpalegg-146"
+                },
+                {
+                    "Name": "Spekemat",
+                    "Link": "https://wolt.com/nb/nor/oslo/venue/wolt-market-sentrum/items/spekemat-147"
+                },
+                {
+                    "Name": "Fiskepålegg",
+                    "Link": "https://wolt.com/nb/nor/oslo/venue/wolt-market-sentrum/items/fiskepalegg-148"
+                },
+                {
+                    "Name": "Søtpålegg",
+                    "Link": "https://wolt.com/nb/nor/oslo/venue/wolt-market-sentrum/items/stpalegg-149"
+                },
+                {
+                    "Name": "Syltetøy",
+                    "Link": "https://wolt.com/nb/nor/oslo/venue/wolt-market-sentrum/items/syltety-150"
+                },
+                {
+                    "Name": "Majones",
+                    "Link": "https://wolt.com/nb/nor/oslo/venue/wolt-market-sentrum/items/majones-151"
+                },
+                {
+                    "Name": "Postei",
+                    "Link": "https://wolt.com/nb/nor/oslo/venue/wolt-market-sentrum/items/postei-152"
+                },
+                {
+                    "Name": "Påleggssalater",
+                    "Link": "https://wolt.com/nb/nor/oslo/venue/wolt-market-sentrum/items/paleggssalater-153"
+                }
+            ]
+        },
+        {
+            "Name": "Kjøtt \u0026 Kylling",
+            "Link": "https://wolt.com/nb/nor/oslo/venue/wolt-market-sentrum/items/kjtt-kylling-11",
+            "SubCategories": [
+                {
+                    "Name": "Kjøtt",
+                    "Link": "https://wolt.com/nb/nor/oslo/venue/wolt-market-sentrum/items/kjtt-68"
+                },
+                {
+                    "Name": "Kylling \u0026 Fjærkre",
+                    "Link": "https://wolt.com/nb/nor/oslo/venue/wolt-market-sentrum/items/kylling-fjrkre-69"
+                },
+                {
+                    "Name": "Pølser \u0026 Kjøttboller",
+                    "Link": "https://wolt.com/nb/nor/oslo/venue/wolt-market-sentrum/items/plser-kjttboller-70"
+                },
+                {
+                    "Name": "Hamburgere",
+                    "Link": "https://wolt.com/nb/nor/oslo/venue/wolt-market-sentrum/items/hamburgere-71"
+                },
+                {
+                    "Name": "Bacon",
+                    "Link": "https://wolt.com/nb/nor/oslo/venue/wolt-market-sentrum/items/bacon-72"
+                }
+            ]
+        },
+        {
+            "Name": "Fisk \u0026 Sjømat",
+            "Link": "https://wolt.com/nb/nor/oslo/venue/wolt-market-sentrum/items/fisk-sjmat-12",
+            "SubCategories": [
+                {
+                    "Name": "Fisk",
+                    "Link": "https://wolt.com/nb/nor/oslo/venue/wolt-market-sentrum/items/fisk-120"
+                },
+                {
+                    "Name": "Fiskeretter",
+                    "Link": "https://wolt.com/nb/nor/oslo/venue/wolt-market-sentrum/items/fiskeretter-121"
+                },
+                {
+                    "Name": "Skalldyr",
+                    "Link": "https://wolt.com/nb/nor/oslo/venue/wolt-market-sentrum/items/skalldyr-122"
+                },
+                {
+                    "Name": "Hermetisert Sjømat",
+                    "Link": "https://wolt.com/nb/nor/oslo/venue/wolt-market-sentrum/items/hermetisert-sjmat-123"
+                }
+            ]
+        },
+        {
+            "Name": "Plantebasert",
+            "Link": "https://wolt.com/nb/nor/oslo/venue/wolt-market-sentrum/items/plantebasert-13",
+            "SubCategories": [
+                {
+                    "Name": "Plantebasert Meieri",
+                    "Link": "https://wolt.com/nb/nor/oslo/venue/wolt-market-sentrum/items/plantebasert-meieri-124"
+                },
+                {
+                    "Name": "Vegetarretter",
+                    "Link": "https://wolt.com/nb/nor/oslo/venue/wolt-market-sentrum/items/vegetarretter-125"
+                },
+                {
+                    "Name": "Plantebasert Ost",
+                    "Link": "https://wolt.com/nb/nor/oslo/venue/wolt-market-sentrum/items/plantebasert-ost-126"
+                }
+            ]
+        },
+        {
+            "Name": "Middag",
+            "Link": "https://wolt.com/nb/nor/oslo/venue/wolt-market-sentrum/items/middag-14",
+            "SubCategories": [
+                {
+                    "Name": "Pizza",
+                    "Link": "https://wolt.com/nb/nor/oslo/venue/wolt-market-sentrum/items/pizza-60"
+                },
+                {
+                    "Name": "Ferdigretter",
+                    "Link": "https://wolt.com/nb/nor/oslo/venue/wolt-market-sentrum/items/ferdigretter-61"
+                },
+                {
+                    "Name": "TexMex",
+                    "Link": "https://wolt.com/nb/nor/oslo/venue/wolt-market-sentrum/items/texmex-62"
+                },
+                {
+                    "Name": "Asiatisk",
+                    "Link": "https://wolt.com/nb/nor/oslo/venue/wolt-market-sentrum/items/asiatisk-63"
+                },
+                {
+                    "Name": "Supper \u0026 Gryteretter",
+                    "Link": "https://wolt.com/nb/nor/oslo/venue/wolt-market-sentrum/items/supper-gryteretter-64"
+                },
+                {
+                    "Name": "Pasta \u0026 Nudler",
+                    "Link": "https://wolt.com/nb/nor/oslo/venue/wolt-market-sentrum/items/pasta-nudler-65"
+                },
+                {
+                    "Name": "Ris \u0026 Gryn",
+                    "Link": "https://wolt.com/nb/nor/oslo/venue/wolt-market-sentrum/items/ris-gryn-66"
+                },
+                {
+                    "Name": "Potetretter",
+                    "Link": "https://wolt.com/nb/nor/oslo/venue/wolt-market-sentrum/items/potetretter-67"
+                }
+            ]
+        },
+        {
+            "Name": "Middagstilbehør",
+            "Link": "https://wolt.com/nb/nor/oslo/venue/wolt-market-sentrum/items/middagstilbehr-15",
+            "SubCategories": [
+                {
+                    "Name": "Sauser \u0026 Marinade",
+                    "Link": "https://wolt.com/nb/nor/oslo/venue/wolt-market-sentrum/items/sauser-marinade-106"
+                },
+                {
+                    "Name": "Hermetisert Grønt",
+                    "Link": "https://wolt.com/nb/nor/oslo/venue/wolt-market-sentrum/items/hermetisert-grnt-107"
+                },
+                {
+                    "Name": "Krydder",
+                    "Link": "https://wolt.com/nb/nor/oslo/venue/wolt-market-sentrum/items/krydder-108"
+                },
+                {
+                    "Name": "Olje \u0026 Eddik",
+                    "Link": "https://wolt.com/nb/nor/oslo/venue/wolt-market-sentrum/items/olje-eddik-109"
+                },
+                {
+                    "Name": "Ketchup \u0026 Sennep",
+                    "Link": "https://wolt.com/nb/nor/oslo/venue/wolt-market-sentrum/items/ketchup-sennep-110"
+                },
+                {
+                    "Name": "Bønner \u0026 Linser",
+                    "Link": "https://wolt.com/nb/nor/oslo/venue/wolt-market-sentrum/items/bnner-linser-111"
+                },
+                {
+                    "Name": "Buljong \u0026 Fond",
+                    "Link": "https://wolt.com/nb/nor/oslo/venue/wolt-market-sentrum/items/buljong-fond-112"
+                }
+            ]
+        },
+        {
+            "Name": "Drikke",
+            "Link": "https://wolt.com/nb/nor/oslo/venue/wolt-market-sentrum/items/drikke-16",
+            "SubCategories": [
+                {
+                    "Name": "Brus",
+                    "Link": "https://wolt.com/nb/nor/oslo/venue/wolt-market-sentrum/items/brus-187"
+                },
+                {
+                    "Name": "Energi- \u0026 Vitamindrikke",
+                    "Link": "https://wolt.com/nb/nor/oslo/venue/wolt-market-sentrum/items/energi-vitamindrikke-188"
+                },
+                {
+                    "Name": "Juice \u0026 Smoothie",
+                    "Link": "https://wolt.com/nb/nor/oslo/venue/wolt-market-sentrum/items/juice-smoothie-189"
+                },
+                {
+                    "Name": "Vann",
+                    "Link": "https://wolt.com/nb/nor/oslo/venue/wolt-market-sentrum/items/vann-190"
+                },
+                {
+                    "Name": "Iskaffe \u0026 Iste",
+                    "Link": "https://wolt.com/nb/nor/oslo/venue/wolt-market-sentrum/items/iskaffe-iste-191"
+                },
+                {
+                    "Name": "Saft",
+                    "Link": "https://wolt.com/nb/nor/oslo/venue/wolt-market-sentrum/items/saft-192"
+                },
+                {
+                    "Name": "Fruktdrikke",
+                    "Link": "https://wolt.com/nb/nor/oslo/venue/wolt-market-sentrum/items/fruktdrikke-193"
+                },
+                {
+                    "Name": "Isbiter",
+                    "Link": "https://wolt.com/nb/nor/oslo/venue/wolt-market-sentrum/items/isbiter-194"
+                },
+                {
+                    "Name": "Tonic \u0026 Ingefær Øl",
+                    "Link": "https://wolt.com/nb/nor/oslo/venue/wolt-market-sentrum/items/tonic-ingefr-l-195"
+                },
+                {
+                    "Name": "Alkoholfritt Øl",
+                    "Link": "https://wolt.com/nb/nor/oslo/venue/wolt-market-sentrum/items/alkoholfritt-l-196"
+                }
+            ]
+        },
+        {
+            "Name": "Alkohol",
+            "Link": "https://wolt.com/nb/nor/oslo/venue/wolt-market-sentrum/items/alkohol-17",
+            "SubCategories": [
+                {
+                    "Name": "Pils",
+                    "Link": "https://wolt.com/nb/nor/oslo/venue/wolt-market-sentrum/items/pils-154"
+                },
+                {
+                    "Name": "Spesialøl",
+                    "Link": "https://wolt.com/nb/nor/oslo/venue/wolt-market-sentrum/items/spesiall-155"
+                },
+                {
+                    "Name": "Cider",
+                    "Link": "https://wolt.com/nb/nor/oslo/venue/wolt-market-sentrum/items/cider-156"
+                },
+                {
+                    "Name": "Ferdigdrink",
+                    "Link": "https://wolt.com/nb/nor/oslo/venue/wolt-market-sentrum/items/ferdigdrink-157"
+                }
+            ]
+        },
+        {
+            "Name": "Varme Drikker",
+            "Link": "https://wolt.com/nb/nor/oslo/venue/wolt-market-sentrum/items/varme-drikker-18",
+            "SubCategories": [
+                {
+                    "Name": "Kaffekapsler",
+                    "Link": "https://wolt.com/nb/nor/oslo/venue/wolt-market-sentrum/items/kaffekapsler-92"
+                },
+                {
+                    "Name": "Filterkaffe",
+                    "Link": "https://wolt.com/nb/nor/oslo/venue/wolt-market-sentrum/items/filterkaffe-93"
+                },
+                {
+                    "Name": "Kaffebønner",
+                    "Link": "https://wolt.com/nb/nor/oslo/venue/wolt-market-sentrum/items/kaffebnner-94"
+                },
+                {
+                    "Name": "Pulverkaffe",
+                    "Link": "https://wolt.com/nb/nor/oslo/venue/wolt-market-sentrum/items/pulverkaffe-95"
+                },
+                {
+                    "Name": "Kaffesirup",
+                    "Link": "https://wolt.com/nb/nor/oslo/venue/wolt-market-sentrum/items/kaffesirup-96"
+                },
+                {
+                    "Name": "Te",
+                    "Link": "https://wolt.com/nb/nor/oslo/venue/wolt-market-sentrum/items/te-97"
+                },
+                {
+                    "Name": "Sjokoladepulver",
+                    "Link": "https://wolt.com/nb/nor/oslo/venue/wolt-market-sentrum/items/sjokoladepulver-98"
+                },
+                {
+                    "Name": "Filter \u0026 Tilbehør",
+                    "Link": "https://wolt.com/nb/nor/oslo/venue/wolt-market-sentrum/items/filter-tilbehr-99"
+                }
+            ]
+        },
+        {
+            "Name": "Godteri \u0026 Sjokolade",
+            "Link": "https://wolt.com/nb/nor/oslo/venue/wolt-market-sentrum/items/godteri-sjokolade-19",
+            "SubCategories": [
+                {
+                    "Name": "Godteriposer",
+                    "Link": "https://wolt.com/nb/nor/oslo/venue/wolt-market-sentrum/items/godteriposer-198"
+                },
+                {
+                    "Name": "Sjokoladeplater",
+                    "Link": "https://wolt.com/nb/nor/oslo/venue/wolt-market-sentrum/items/sjokoladeplater-199"
+                },
+                {
+                    "Name": "Sjokoladebarer",
+                    "Link": "https://wolt.com/nb/nor/oslo/venue/wolt-market-sentrum/items/sjokoladebarer-200"
+                },
+                {
+                    "Name": "Sjokoladeposer",
+                    "Link": "https://wolt.com/nb/nor/oslo/venue/wolt-market-sentrum/items/sjokoladeposer-201"
+                },
+                {
+                    "Name": "Sukkertøy",
+                    "Link": "https://wolt.com/nb/nor/oslo/venue/wolt-market-sentrum/items/sukkerty-202"
+                },
+                {
+                    "Name": "Lakris",
+                    "Link": "https://wolt.com/nb/nor/oslo/venue/wolt-market-sentrum/items/lakris-203"
+                },
+                {
+                    "Name": "Konfekt \u0026 Gave",
+                    "Link": "https://wolt.com/nb/nor/oslo/venue/wolt-market-sentrum/items/konfekt-gave-204"
+                },
+                {
+                    "Name": "Tyggegummi \u0026 Halspastiller",
+                    "Link": "https://wolt.com/nb/nor/oslo/venue/wolt-market-sentrum/items/tyggegummi-halspastiller-205"
+                }
+            ]
+        },
+        {
+            "Name": "Chips \u0026 Snacks",
+            "Link": "https://wolt.com/nb/nor/oslo/venue/wolt-market-sentrum/items/chips-snacks-20",
+            "SubCategories": [
+                {
+                    "Name": "Chips",
+                    "Link": "https://wolt.com/nb/nor/oslo/venue/wolt-market-sentrum/items/chips-100"
+                },
+                {
+                    "Name": "Ostepop",
+                    "Link": "https://wolt.com/nb/nor/oslo/venue/wolt-market-sentrum/items/ostepop-101"
+                },
+                {
+                    "Name": "Snacks \u0026 Nøtter",
+                    "Link": "https://wolt.com/nb/nor/oslo/venue/wolt-market-sentrum/items/snacks-ntter-102"
+                },
+                {
+                    "Name": "Popcorn",
+                    "Link": "https://wolt.com/nb/nor/oslo/venue/wolt-market-sentrum/items/popcorn-103"
+                },
+                {
+                    "Name": "Spekesnacks",
+                    "Link": "https://wolt.com/nb/nor/oslo/venue/wolt-market-sentrum/items/spekesnacks-104"
+                },
+                {
+                    "Name": "Dipp",
+                    "Link": "https://wolt.com/nb/nor/oslo/venue/wolt-market-sentrum/items/dipp-105"
+                }
+            ]
+        },
+        {
+            "Name": "Iskrem \u0026 Dessert",
+            "Link": "https://wolt.com/nb/nor/oslo/venue/wolt-market-sentrum/items/iskrem-dessert-21",
+            "SubCategories": [
+                {
+                    "Name": "Is i Boks",
+                    "Link": "https://wolt.com/nb/nor/oslo/venue/wolt-market-sentrum/items/is-i-boks-52"
+                },
+                {
+                    "Name": "Multipakning",
+                    "Link": "https://wolt.com/nb/nor/oslo/venue/wolt-market-sentrum/items/multipakning-53"
+                },
+                {
+                    "Name": "Desserter",
+                    "Link": "https://wolt.com/nb/nor/oslo/venue/wolt-market-sentrum/items/desserter-54"
+                },
+                {
+                    "Name": "Gelé \u0026 Pudding",
+                    "Link": "https://wolt.com/nb/nor/oslo/venue/wolt-market-sentrum/items/gele-pudding-55"
+                },
+                {
+                    "Name": "Hermetiske Frukt",
+                    "Link": "https://wolt.com/nb/nor/oslo/venue/wolt-market-sentrum/items/hermetiske-frukt-56"
+                },
+                {
+                    "Name": "Iskrem Tilbehør",
+                    "Link": "https://wolt.com/nb/nor/oslo/venue/wolt-market-sentrum/items/iskrem-tilbehr-57"
+                }
+            ]
+        },
+        {
+            "Name": "Baking",
+            "Link": "https://wolt.com/nb/nor/oslo/venue/wolt-market-sentrum/items/baking-22",
+            "SubCategories": [
+                {
+                    "Name": "Sukker \u0026 Søtning",
+                    "Link": "https://wolt.com/nb/nor/oslo/venue/wolt-market-sentrum/items/sukker-stning-73"
+                },
+                {
+                    "Name": "Mel",
+                    "Link": "https://wolt.com/nb/nor/oslo/venue/wolt-market-sentrum/items/mel-74"
+                },
+                {
+                    "Name": "Bakeblanding",
+                    "Link": "https://wolt.com/nb/nor/oslo/venue/wolt-market-sentrum/items/bakeblanding-75"
+                },
+                {
+                    "Name": "Nøtter \u0026 Frø",
+                    "Link": "https://wolt.com/nb/nor/oslo/venue/wolt-market-sentrum/items/ntter-fr-76"
+                },
+                {
+                    "Name": "Tørket frukt",
+                    "Link": "https://wolt.com/nb/nor/oslo/venue/wolt-market-sentrum/items/trket-frukt-77"
+                },
+                {
+                    "Name": "Kakao \u0026 Kokesjokolade",
+                    "Link": "https://wolt.com/nb/nor/oslo/venue/wolt-market-sentrum/items/kakao-kokesjokolade-78"
+                },
+                {
+                    "Name": "Gjær \u0026 Baking",
+                    "Link": "https://wolt.com/nb/nor/oslo/venue/wolt-market-sentrum/items/gjr-baking-79"
+                }
+            ]
+        },
+        {
+            "Name": "Trening \u0026 Helse",
+            "Link": "https://wolt.com/nb/nor/oslo/venue/wolt-market-sentrum/items/trening-helse-23",
+            "SubCategories": [
+                {
+                    "Name": "Proteindrikk \u0026 Pudding",
+                    "Link": "https://wolt.com/nb/nor/oslo/venue/wolt-market-sentrum/items/proteindrikk-pudding-141"
+                },
+                {
+                    "Name": "Barer",
+                    "Link": "https://wolt.com/nb/nor/oslo/venue/wolt-market-sentrum/items/barer-142"
+                },
+                {
+                    "Name": "Vitaminer",
+                    "Link": "https://wolt.com/nb/nor/oslo/venue/wolt-market-sentrum/items/vitaminer-143"
+                }
+            ]
+        },
+        {
+            "Name": "Renhold",
+            "Link": "https://wolt.com/nb/nor/oslo/venue/wolt-market-sentrum/items/renhold-24",
+            "SubCategories": [
+                {
+                    "Name": "Toalettpapir \u0026 Tørkerull",
+                    "Link": "https://wolt.com/nb/nor/oslo/venue/wolt-market-sentrum/items/toalettpapir-trkerull-136"
+                },
+                {
+                    "Name": "Klesvask",
+                    "Link": "https://wolt.com/nb/nor/oslo/venue/wolt-market-sentrum/items/klesvask-137"
+                },
+                {
+                    "Name": "Oppvask",
+                    "Link": "https://wolt.com/nb/nor/oslo/venue/wolt-market-sentrum/items/oppvask-138"
+                },
+                {
+                    "Name": "Rengjøring",
+                    "Link": "https://wolt.com/nb/nor/oslo/venue/wolt-market-sentrum/items/rengjring-139"
+                },
+                {
+                    "Name": "Rengjøringstilbehør",
+                    "Link": "https://wolt.com/nb/nor/oslo/venue/wolt-market-sentrum/items/rengjringstilbehr-140"
+                }
+            ]
+        },
+        {
+            "Name": "Hus \u0026 Hjem",
+            "Link": "https://wolt.com/nb/nor/oslo/venue/wolt-market-sentrum/items/hus-hjem-25",
+            "SubCategories": [
+                {
+                    "Name": "Kjøkken",
+                    "Link": "https://wolt.com/nb/nor/oslo/venue/wolt-market-sentrum/items/kjkken-113"
+                },
+                {
+                    "Name": "Lyspærer \u0026 Batterier",
+                    "Link": "https://wolt.com/nb/nor/oslo/venue/wolt-market-sentrum/items/lysprer-batterier-114"
+                },
+                {
+                    "Name": "Stearinlys",
+                    "Link": "https://wolt.com/nb/nor/oslo/venue/wolt-market-sentrum/items/stearinlys-115"
+                },
+                {
+                    "Name": "Hjem \u0026 Fritid",
+                    "Link": "https://wolt.com/nb/nor/oslo/venue/wolt-market-sentrum/items/hjem-fritid-116"
+                },
+                {
+                    "Name": "Undertøy",
+                    "Link": "https://wolt.com/nb/nor/oslo/venue/wolt-market-sentrum/items/underty-117"
+                },
+                {
+                    "Name": "Engangsartikler \u0026 Servietter",
+                    "Link": "https://wolt.com/nb/nor/oslo/venue/wolt-market-sentrum/items/engangsartikler-servietter-118"
+                },
+                {
+                    "Name": "Kontorrekvisitter",
+                    "Link": "https://wolt.com/nb/nor/oslo/venue/wolt-market-sentrum/items/kontorrekvisitter-119"
+                }
+            ]
+        },
+        {
+            "Name": "Skjønnhet \u0026 Hygiene",
+            "Link": "https://wolt.com/nb/nor/oslo/venue/wolt-market-sentrum/items/skjnnhet-hygiene-26",
+            "SubCategories": [
+                {
+                    "Name": "Tannpleie",
+                    "Link": "https://wolt.com/nb/nor/oslo/venue/wolt-market-sentrum/items/tannpleie-165"
+                },
+                {
+                    "Name": "Hårpleie",
+                    "Link": "https://wolt.com/nb/nor/oslo/venue/wolt-market-sentrum/items/harpleie-166"
+                },
+                {
+                    "Name": "Hårstyling",
+                    "Link": "https://wolt.com/nb/nor/oslo/venue/wolt-market-sentrum/items/harstyling-167"
+                },
+                {
+                    "Name": "Kroppspleie",
+                    "Link": "https://wolt.com/nb/nor/oslo/venue/wolt-market-sentrum/items/kroppspleie-168"
+                },
+                {
+                    "Name": "Ansiktspleie",
+                    "Link": "https://wolt.com/nb/nor/oslo/venue/wolt-market-sentrum/items/ansiktspleie-169"
+                },
+                {
+                    "Name": "Bind \u0026 Tamponger",
+                    "Link": "https://wolt.com/nb/nor/oslo/venue/wolt-market-sentrum/items/bind-tamponger-170"
+                },
+                {
+                    "Name": "Barbering",
+                    "Link": "https://wolt.com/nb/nor/oslo/venue/wolt-market-sentrum/items/barbering-172"
+                },
+                {
+                    "Name": "Deodorant",
+                    "Link": "https://wolt.com/nb/nor/oslo/venue/wolt-market-sentrum/items/deodorant-173"
+                },
+                {
+                    "Name": "Håndsåpe \u0026 Desinfeksjon",
+                    "Link": "https://wolt.com/nb/nor/oslo/venue/wolt-market-sentrum/items/handsape-desinfeksjon-174"
+                },
+                {
+                    "Name": "Bomullpads \u0026 Pinner",
+                    "Link": "https://wolt.com/nb/nor/oslo/venue/wolt-market-sentrum/items/bomullpads-pinner-175"
+                },
+                {
+                    "Name": "Solpleie",
+                    "Link": "https://wolt.com/nb/nor/oslo/venue/wolt-market-sentrum/items/solpleie-176"
+                }
+            ]
+        },
+        {
+            "Name": "Erotiske Produkter",
+            "Link": "https://wolt.com/nb/nor/oslo/venue/wolt-market-sentrum/items/erotiske-produkter-27",
+            "SubCategories": [
+                {
+                    "Name": "Sexleketøy",
+                    "Link": "https://wolt.com/nb/nor/oslo/venue/wolt-market-sentrum/items/sexlekety-144"
+                },
+                {
+                    "Name": "Intim",
+                    "Link": "https://wolt.com/nb/nor/oslo/venue/wolt-market-sentrum/items/intim-145"
+                }
+            ]
+        },
+        {
+            "Name": "Apoteksvarer",
+            "Link": "https://wolt.com/nb/nor/oslo/venue/wolt-market-sentrum/items/apoteksvarer-28",
+            "SubCategories": [
+                {
+                    "Name": "Reseptfrie Legemidler",
+                    "Link": "https://wolt.com/nb/nor/oslo/venue/wolt-market-sentrum/items/reseptfrie-legemidler-127"
+                },
+                {
+                    "Name": "Selvtester",
+                    "Link": "https://wolt.com/nb/nor/oslo/venue/wolt-market-sentrum/items/selvtester-128"
+                },
+                {
+                    "Name": "Sårbehandling",
+                    "Link": "https://wolt.com/nb/nor/oslo/venue/wolt-market-sentrum/items/sarbehandling-129"
+                }
+            ]
+        },
+        {
+            "Name": "Barn \u0026 Baby",
+            "Link": "https://wolt.com/nb/nor/oslo/venue/wolt-market-sentrum/items/barn-baby-29",
+            "SubCategories": [
+                {
+                    "Name": "Bleier",
+                    "Link": "https://wolt.com/nb/nor/oslo/venue/wolt-market-sentrum/items/bleier-83"
+                },
+                {
+                    "Name": "Melkerstatning",
+                    "Link": "https://wolt.com/nb/nor/oslo/venue/wolt-market-sentrum/items/melkerstatning-84"
+                },
+                {
+                    "Name": "Barnemat",
+                    "Link": "https://wolt.com/nb/nor/oslo/venue/wolt-market-sentrum/items/barnemat-85"
+                },
+                {
+                    "Name": "Barnegrøt",
+                    "Link": "https://wolt.com/nb/nor/oslo/venue/wolt-market-sentrum/items/barnegrt-86"
+                },
+                {
+                    "Name": "Babypleie",
+                    "Link": "https://wolt.com/nb/nor/oslo/venue/wolt-market-sentrum/items/babypleie-87"
+                },
+                {
+                    "Name": "Babyartikler",
+                    "Link": "https://wolt.com/nb/nor/oslo/venue/wolt-market-sentrum/items/babyartikler-88"
+                }
+            ]
+        },
+        {
+            "Name": "Dyr",
+            "Link": "https://wolt.com/nb/nor/oslo/venue/wolt-market-sentrum/items/dyr-30",
+            "SubCategories": [
+                {
+                    "Name": "Katt",
+                    "Link": "https://wolt.com/nb/nor/oslo/venue/wolt-market-sentrum/items/katt-42"
+                },
+                {
+                    "Name": "Hund",
+                    "Link": "https://wolt.com/nb/nor/oslo/venue/wolt-market-sentrum/items/hund-43"
+                }
+            ]
+        },
+        {
+            "Name": "Blomster \u0026 Planter",
+            "Link": "https://wolt.com/nb/nor/oslo/venue/wolt-market-sentrum/items/blomster-planter-31",
+            "SubCategories": [
+                {
+                    "Name": "Blomster",
+                    "Link": "https://wolt.com/nb/nor/oslo/venue/wolt-market-sentrum/items/blomster-89"
+                },
+                {
+                    "Name": "Planter",
+                    "Link": "https://wolt.com/nb/nor/oslo/venue/wolt-market-sentrum/items/planter-90"
+                },
+                {
+                    "Name": "Frø \u0026 Plantejord",
+                    "Link": "https://wolt.com/nb/nor/oslo/venue/wolt-market-sentrum/items/fr-plantejord-91"
+                }
+            ]
+        },
+        {
+            "Name": "Snus \u0026 Sigaretter",
+            "Link": "https://wolt.com/nb/nor/oslo/venue/wolt-market-sentrum/items/snus-sigaretter-32",
+            "SubCategories": [
+                {
+                    "Name": "Snus",
+                    "Link": "https://wolt.com/nb/nor/oslo/venue/wolt-market-sentrum/items/snus-211"
+                },
+                {
+                    "Name": "Hvit Snus",
+                    "Link": "https://wolt.com/nb/nor/oslo/venue/wolt-market-sentrum/items/hvit-snus-212"
+                },
+                {
+                    "Name": "Sigaretter",
+                    "Link": "https://wolt.com/nb/nor/oslo/venue/wolt-market-sentrum/items/sigaretter-213"
+                },
+                {
+                    "Name": "Nikotinfri",
+                    "Link": "https://wolt.com/nb/nor/oslo/venue/wolt-market-sentrum/items/nikotinfri-215"
+                },
+                {
+                    "Name": "Papir",
+                    "Link": "https://wolt.com/nb/nor/oslo/venue/wolt-market-sentrum/items/papir-216"
+                }
+            ]
+        }
+    ]
+}
+Elapsed: 16.739756208s
