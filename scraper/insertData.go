@@ -45,7 +45,7 @@ func insertData(db *sql.DB, product Product) {
 	}
 	defer query.Close()
 
-	_, err = query.Exec(product.Price.Price, product.Price.UnitPrice, product.Price.UnitType, product.Id)
+	_, err = query.Exec(product.Price, product.UnitPrice, product.UnitType, product.Id)
 	if err != nil {
 		fmt.Printf("Error running query: %v\n", err)
 		return

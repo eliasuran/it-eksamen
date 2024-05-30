@@ -1,10 +1,9 @@
 package main
 
 type Product struct {
-	Gtin        string
+	Id          int
 	Title       string
-	Subtitle    string
 	Category    string
 	Subcategory string
-	Price       float32
+	Imagelink   string
 }

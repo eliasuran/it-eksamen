@@ -28,7 +28,7 @@ func routes(
 
 		for rows.Next() {
 			var product Product
-			if err := rows.Scan(&product.Gtin, &product.Title, &product.Subtitle, &product.Category, &product.Subcategory, &product.Price); err != nil {
+			if err := rows.Scan(&product.Id, &product.Title, &product.Category, &product.Subcategory, &product.Imagelink); err != nil {
 				httpError(w, err, "Could not read data from database: %v\n")
 				return
 			}

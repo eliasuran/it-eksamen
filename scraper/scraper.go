@@ -18,10 +18,11 @@ func getCategories() Categories {
 	categoriesStarted := false
 
 	c.OnHTML("div.sc-adf1bc0c-8", func(e *colly.HTMLElement) {
+		name := e.ChildText("div.sc-dad41f1f-6")
+		name = strings.ReplaceAll(name, "\u0026", "&")
+
 		href := e.ChildAttr("div > a", "href")
 		link := fmt.Sprintf("%s%s", "https://wolt.com", href)
-
-		name := e.ChildText("div.sc-dad41f1f-6")
 
 		// frukt & grønnsaker er den første kategorien, så da settes categoriesStarted til true
 		if name == "Frukt & Grønnsaker" {
@@ -47,6 +48,7 @@ func getSubCategories(link string) []SubCategory {
 
 	c.OnHTML("div.sc-adf1bc0c-8.kWmoAY", func(e *colly.HTMLElement) {
 		name := e.ChildText("a > div.sc-dad41f1f-6")
+		name = strings.ReplaceAll(name, "\u0026", "&")
 
 		if name != "Alle varer" && !strings.Contains(name, "Kampanjer") {
 			href := e.ChildAttr("a", "href")
@@ -90,14 +92,11 @@ func getProducts(products *Products, category Category, subCategory SubCategory,
 		}
 
 		products.Products = append(products.Products, Product{
-			Id:    *id,
-			Title: title,
-			Price: Price{
-				Price:      float32(priceFloat),
-				UnitPrice:  float32(unitPriceFloat),
-				UnitType:   unitType,
-				Product_id: *id,
-			},
+			Id:          *id,
+			Title:       title,
+			Price:       float32(priceFloat),
+			UnitPrice:   float32(unitPriceFloat),
+			UnitType:    unitType,
 			Category:    category.Name,
 			SubCategory: subCategory.Name,
 			ImageLink:   imageLink,

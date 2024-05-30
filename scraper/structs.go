@@ -27,12 +27,7 @@ type Product struct {
 	Category    string
 	SubCategory string
 	ImageLink   string
-	Price       Price
-}
-
-type Price struct {
-	Price      float32
-	UnitPrice  float32
-	UnitType   string
-	Product_id int
+	Price       float32
+	UnitPrice   float32
+	UnitType    string
 }
