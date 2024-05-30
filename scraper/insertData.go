@@ -37,7 +37,7 @@ func insertData(db *sql.DB, product Product) {
 		DO UPDATE SET
 			price = EXCLUDED.price,
 			unitprice = EXCLUDED.unitprice,
-			unittype = EXCLUDED.unittyp
+			unittype = EXCLUDED.unittype
 	`)
 	if err != nil {
 		fmt.Printf("Error preparing query: %v\n", err)
