@@ -5,20 +5,22 @@ import starlight from '@astrojs/starlight';
 export default defineConfig({
 	integrations: [
 		starlight({
-			title: 'My Docs',
+			title: 'Wolt API',
 			social: {
-				github: 'https://github.com/withastro/starlight',
+				github: 'https://github.com/eliasuran/it-eksamen',
 			},
 			sidebar: [
 				{
-					label: 'Guides',
+					label: 'Introduksjon',
 					items: [
 						// Each item here is one entry in the navigation menu.
-						{ label: 'Example Guide', link: '/guides/example/' },
+						{ label: 'Introduksjon', link: '/introduksjon/01-introduksjon/' },
+						{ label: 'Rask start', link: '/introduksjon/02-raskstart/' },
+						{ label: 'Oppsett beskrivelse', link: '/introduksjon/03-oppsett-beskrivelse/' },
 					],
 				},
 				{
-					label: 'Reference',
+					label: 'API referanser',
 					autogenerate: { directory: 'reference' },
 				},
 			],
