@@ -33,11 +33,6 @@ func insertData(db *sql.DB, product Product) {
 	query, err = db.Prepare(`
 		INSERT INTO prices (price, unitprice, unittype, product_id)
 		VALUES ($1, $2, $3, $4)
-		ON CONFLICT (product_id)
-		DO UPDATE SET
-			price = EXCLUDED.price,
-			unitprice = EXCLUDED.unitprice,
-			unittype = EXCLUDED.unittype
 	`)
 	if err != nil {
 		fmt.Printf("Error preparing query: %v\n", err)
